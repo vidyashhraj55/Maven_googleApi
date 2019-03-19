@@ -15,7 +15,7 @@ import com.google.maps.model.PlaceDetails;
 public class GoogleApi {
 
 	public static void main(String[] args) throws ApiException, InterruptedException, IOException {
-		String APIKEY="";
+		String APIKEY="YOUR_APIKEY";
 		GeoApiContext context = new GeoApiContext.Builder()
 				   .apiKey(APIKEY)
 				   .build();
